@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".createAccountWindow"
+    android:background="@drawable/register">
+
+    <EditText
+        android:id="@+id/et_name_accPage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_surname_accPage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:hint="Surname"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/sp_age_accPage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center|start" />
+
+    <EditText
+        android:id="@+id/et_email_accPage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:hint="e-Mail"
+        android:inputType="textPersonName"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/et_username_accPage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_password_accPage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:password="true" />
+
+    <EditText
+        android:id="@+id/et_re_password_accPage"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center|start"
+        android:hint="Re-enter password"
+        android:inputType="textPersonName"
+        android:password="true" />
+
+    <Spinner
+        android:id="@+id/sp_game"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <Spinner
+        android:id="@+id/sp_level"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/but_create_button_accPage"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:enabled="true"
+        android:text="Create Account"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
